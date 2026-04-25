@@ -1,0 +1,93 @@
+{
+  "nav": {
+    "home": "Home",
+    "blog": "Blog",
+    "categories": "Categories",
+    "search": "Search",
+    "resources": "Resources",
+    "company": "Company"
+  },
+  "home": {
+    "badge": "Master SEO Today",
+    "heroTitle": "Unlock Your Website's Full Search Potential",
+    "heroDesc": "Learn proven SEO strategies, from keyword research to technical optimization. Our comprehensive guides will help you rank higher, drive more traffic, and grow your online presence.",
+    "startLearning": "Start Learning",
+    "browseCategories": "Browse Categories",
+    "featuresTitle": "Everything You Need to Master SEO",
+    "feature1Title": "Comprehensive Guides",
+    "feature1Desc": "In-depth articles covering all aspects of SEO",
+    "feature2Title": "Proven Strategies",
+    "feature2Desc": "Actionable tactics from industry experts",
+    "feature3Title": "Latest Trends",
+    "feature3Desc": "Stay updated with current SEO best practices",
+    "featuredTitle": "Featured Articles",
+    "featuredDesc": "Discover our most popular and impactful SEO resources",
+    "viewAll": "View All",
+    "viewAllArticles": "View All Articles",
+    "ctaTitle": "Ready to Transform Your SEO?",
+    "ctaDesc": "Start with our beginner's guide and progress to advanced strategies at your own pace.",
+    "exploreGuides": "Explore All Guides"
+  },
+  "blog": {
+    "allArticles": "All Articles",
+    "allArticlesDesc": "Comprehensive guides to help you master search engine optimization",
+    "backToBlog": "Back to Blog",
+    "relatedPosts": "Related Posts",
+    "readMore": "Read more",
+    "minRead": "min read",
+    "previousArticle": "← Previous Article",
+    "nextArticle": "Next Article →",
+    "aboutAuthor": "About the Author",
+    "authorBio": "{author} is a SEO expert and content strategist with years of experience helping businesses improve their search visibility."
+  },
+  "search": {
+    "title": "Search Articles",
+    "placeholder": "Search by title, topic, or keyword...",
+    "button": "Search",
+    "noResults": "No articles found for \"{query}\". Try different keywords.",
+    "results": "Found {count} {count, plural, one {result} other {results}} for \"{query}\"",
+    "enterQuery": "Enter a search query to find articles",
+    "searching": "Searching...",
+    "back": "Back"
+  },
+  "categories": {
+    "title": "Browse by Category",
+    "description": "Find articles organized by topic to streamline your learning journey",
+    "articles": "{count} {count, plural, one {article} other {articles}}",
+    "articlesInCategory": "{count} {count, plural, one {article} other {articles}} in this category",
+    "backToCategories": "Back to Categories",
+    "notFound": "Category Not Found",
+    "notFoundDesc": "Sorry, we couldn't find that category.",
+    "noArticles": "No articles found in this category."
+  },
+  "i18n": {
+    "translationUnavailable": "This article is not yet available in {locale}. Showing English version."
+  },
+  "tags": {
+    "articles": "{tag} Articles",
+    "noArticles": "No articles found for this tag."
+  },
+  "contact": {
+    "backToHome": "Back to Home",
+    "title": "Get in Touch",
+    "subtitle": "We'd love to hear from you. Send us a message anytime.",
+    "infoTitle": "Contact Information",
+    "email": "Email",
+    "responseTime": "Response Time",
+    "responseTimeDesc": "We typically respond within 24 hours",
+    "formTitle": "Send us a Message",
+    "name": "Name",
+    "namePlaceholder": "Your name",
+    "emailPlaceholder": "your@email.com",
+    "subject": "Subject",
+    "subjectPlaceholder": "What's this about?",
+    "message": "Message",
+    "messagePlaceholder": "Your message...",
+    "send": "Send Message"
+  },
+  "footer": {
+    "tagline": "Master search engine optimization and grow your online presence.",
+    "rights": "All rights reserved.",
+    "contact": "Contact Us"
+  }
+}

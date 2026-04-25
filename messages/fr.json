@@ -1,0 +1,93 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "blog": "Blog",
+    "categories": "Catégories",
+    "search": "Rechercher",
+    "resources": "Ressources",
+    "company": "Entreprise"
+  },
+  "home": {
+    "badge": "Maîtrisez le SEO dès aujourd'hui",
+    "heroTitle": "Propulsez votre site en tête des résultats Google",
+    "heroDesc": "Des stratégies SEO concrètes et éprouvées — de la recherche de mots-clés à l'optimisation technique. Nos guides vous aident à attirer plus de visiteurs, à mieux vous positionner et à développer votre présence en ligne durablement.",
+    "startLearning": "Commencer maintenant",
+    "browseCategories": "Explorer les catégories",
+    "featuresTitle": "Tout ce qu'il vous faut pour dominer le SEO",
+    "feature1Title": "Guides approfondis",
+    "feature1Desc": "Des articles complets sur tous les aspects du référencement naturel",
+    "feature2Title": "Stratégies qui fonctionnent",
+    "feature2Desc": "Des tactiques concrètes testées par des experts du secteur",
+    "feature3Title": "Tendances actuelles",
+    "feature3Desc": "Restez à la pointe des meilleures pratiques SEO",
+    "featuredTitle": "Articles à la une",
+    "featuredDesc": "Nos ressources SEO les plus lues et les plus impactantes",
+    "viewAll": "Voir tout",
+    "viewAllArticles": "Voir tous les articles",
+    "ctaTitle": "Prêt à transformer votre référencement ?",
+    "ctaDesc": "Commencez par les bases et progressez vers des stratégies avancées, à votre rythme.",
+    "exploreGuides": "Découvrir tous les guides"
+  },
+  "blog": {
+    "allArticles": "Tous les articles",
+    "allArticlesDesc": "Des guides complets pour maîtriser l'optimisation pour les moteurs de recherche",
+    "backToBlog": "Retour au blog",
+    "relatedPosts": "Articles connexes",
+    "readMore": "Lire la suite",
+    "minRead": "min de lecture",
+    "previousArticle": "← Article précédent",
+    "nextArticle": "Article suivant →",
+    "aboutAuthor": "À propos de l'auteur",
+    "authorBio": "{author} est un expert SEO et stratège de contenu avec des années d'expérience aidant les entreprises à améliorer leur visibilité dans les moteurs de recherche."
+  },
+  "search": {
+    "title": "Rechercher des articles",
+    "placeholder": "Rechercher par titre, sujet ou mot-clé...",
+    "button": "Rechercher",
+    "noResults": "Aucun article trouvé pour \"{query}\". Essayez d'autres mots-clés.",
+    "results": "Trouvé {count} {count, plural, one {résultat} other {résultats}} pour \"{query}\"",
+    "enterQuery": "Entrez une requête pour trouver des articles",
+    "searching": "Recherche en cours...",
+    "back": "Retour"
+  },
+  "categories": {
+    "title": "Parcourir par catégorie",
+    "description": "Trouvez des articles organisés par sujet pour faciliter votre apprentissage",
+    "articles": "{count} {count, plural, one {article} other {articles}}",
+    "articlesInCategory": "{count} {count, plural, one {article} other {articles}} dans cette catégorie",
+    "backToCategories": "Retour aux catégories",
+    "notFound": "Catégorie introuvable",
+    "notFoundDesc": "Désolé, nous n'avons pas trouvé cette catégorie.",
+    "noArticles": "Aucun article trouvé dans cette catégorie."
+  },
+  "i18n": {
+    "translationUnavailable": "Cet article n'est pas encore disponible en {locale}. Affichage de la version anglaise."
+  },
+  "tags": {
+    "articles": "Articles sur {tag}",
+    "noArticles": "Aucun article trouvé pour ce tag."
+  },
+  "contact": {
+    "backToHome": "Retour à l'accueil",
+    "title": "Nous contacter",
+    "subtitle": "Nous serions ravis d'avoir de vos nouvelles. Envoyez-nous un message à tout moment.",
+    "infoTitle": "Informations de contact",
+    "email": "E-mail",
+    "responseTime": "Délai de réponse",
+    "responseTimeDesc": "Nous répondons généralement dans les 24 heures",
+    "formTitle": "Envoyez-nous un message",
+    "name": "Nom",
+    "namePlaceholder": "Votre nom",
+    "emailPlaceholder": "votre@email.com",
+    "subject": "Sujet",
+    "subjectPlaceholder": "De quoi s'agit-il ?",
+    "message": "Message",
+    "messagePlaceholder": "Votre message...",
+    "send": "Envoyer le message"
+  },
+  "footer": {
+    "tagline": "Maîtrisez l'optimisation pour les moteurs de recherche et développez votre présence en ligne.",
+    "rights": "Tous droits réservés.",
+    "contact": "Nous contacter"
+  }
+}
