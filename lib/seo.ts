@@ -177,6 +177,8 @@ export function escapeHtml(text: string): string {
  * (renamed from generateMetadata to avoid shadowing the Next.js page-level export)
  */
 export function buildNextMetadata(seo: SEOMetadata) {
+  const image = seo.image ?? '/og-image.jpg';
+
   return {
     title: seo.title,
     description: seo.description,
@@ -189,17 +191,17 @@ export function buildNextMetadata(seo: SEOMetadata) {
       type: seo.type,
       images: [
         {
-          url: seo.image,
+          url: image,
           width: 1200,
           height: 630,
         },
       ],
     },
     twitter: {
-      card: 'summary_large_image',
+      card: 'summary_large_image' as const,
       title: seo.title,
       description: seo.description,
-      images: [seo.image],
+      images: [image],
     },
     ...(seo.alternates
       ? {
