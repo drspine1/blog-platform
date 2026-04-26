@@ -123,13 +123,11 @@ export default async function PostPage({ params }: PostPageProps) {
 
               {/* Cover Image */}
               {post.coverImage && (
-                <div className="mb-10 overflow-hidden rounded-2xl border border-border shadow-md">
+                <div className="mb-10 w-full overflow-hidden rounded-2xl border border-border shadow-md">
                   <img
                     src={post.coverImage}
                     alt={post.title}
-                    width={1200}
-                    height={630}
-                    className="w-full object-cover max-h-[420px]"
+                    className="w-full max-w-full object-cover max-h-[420px]"
                     loading="eager"
                   />
                 </div>
@@ -139,7 +137,12 @@ export default async function PostPage({ params }: PostPageProps) {
                   <TableOfContents headings={headings} />
                 </aside>
                 <div className="lg:col-span-3">
-                  <div className="prose max-w-none">
+                  <div className="prose max-w-none break-words
+                    [&_table]:w-full [&_table]:overflow-x-auto [&_table]:block
+                    [&_pre]:overflow-x-auto [&_pre]:max-w-full
+                    [&_code]:break-all
+                    [&_img]:max-w-full [&_img]:h-auto
+                    [&_iframe]:max-w-full">
                     <div
                       className="text-foreground"
                       dangerouslySetInnerHTML={{ __html: post.html }}

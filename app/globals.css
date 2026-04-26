@@ -228,3 +228,25 @@
     @apply italic;
   }
 }
+
+/* Prevent markdown content from overflowing on mobile */
+.prose table {
+  display: block;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.prose pre {
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+.prose img {
+  max-width: 100%;
+  height: auto;
+}
+
+.prose * {
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
