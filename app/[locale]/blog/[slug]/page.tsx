@@ -136,7 +136,7 @@ export default async function PostPage({ params }: PostPageProps) {
                 <aside className="hidden lg:block lg:col-span-1">
                   <TableOfContents headings={headings} />
                 </aside>
-                <div className="lg:col-span-3">
+                <div className="lg:col-span-3 min-w-0">
                   <div className="prose max-w-none break-words
                     [&_table]:w-full [&_table]:overflow-x-auto [&_table]:block
                     [&_pre]:overflow-x-auto [&_pre]:max-w-full
