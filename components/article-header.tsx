@@ -1,8 +1,7 @@
 'use client';
 
-import { useEffect, useRef } from 'react';
 import { Calendar, User, Clock } from 'lucide-react';
-import { gsap, prefersReducedMotion } from '@/lib/gsap';
+import { motion } from '@/components/motion';
 
 interface ArticleHeaderProps {
   title: string;
@@ -13,47 +12,36 @@ interface ArticleHeaderProps {
 }
 
 export default function ArticleHeader({ title, category, author, date, readTime }: ArticleHeaderProps) {
-  const titleRef = useRef<HTMLHeadingElement>(null);
-  const metaRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    if (prefersReducedMotion()) return;
-
-    const targets = [titleRef.current, metaRef.current].filter(Boolean);
-    if (targets.length === 0) return;
-
-    gsap.fromTo(
-      targets,
-      { opacity: 0, y: 20 },
-      { opacity: 1, y: 0, duration: 0.4, stagger: 0.1, ease: 'power2.out' }
-    );
-
-    return () => {
-      gsap.killTweensOf(targets);
-    };
-  }, []);
-
   return (
     <>
-      {/* Category */}
-      <div className="mb-4 flex justify-center">
+      {/* Category badge */}
+      <motion.div
+        className="mb-4 flex justify-center"
+        initial={{ opacity: 0, y: -10 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.4 }}
+      >
         <span className="inline-block rounded-full bg-accent/10 px-3 py-1 text-xs font-medium text-accent">
           {category}
         </span>
-      </div>
+      </motion.div>
 
       {/* Title */}
-      <h1
-        ref={titleRef}
+      <motion.h1
         className="mb-6 text-4xl font-bold leading-tight text-foreground sm:text-5xl text-balance"
+        initial={{ opacity: 0, y: 24 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.55, delay: 0.1 }}
       >
         {title}
-      </h1>
+      </motion.h1>
 
       {/* Meta */}
-      <div
-        ref={metaRef}
+      <motion.div
         className="flex flex-wrap gap-6 border-t border-border pt-6 text-sm text-muted-foreground"
+        initial={{ opacity: 0, y: 16 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, delay: 0.25 }}
       >
         <div className="flex items-center gap-2">
           <User className="h-4 w-4" />
@@ -67,7 +55,7 @@ export default function ArticleHeader({ title, category, author, date, readTime 
           <Clock className="h-4 w-4" />
           <span>{readTime} min read</span>
         </div>
-      </div>
+      </motion.div>
     </>
   );
 }

@@ -4,6 +4,7 @@ import { getAllPostMetadata } from '@/lib/posts';
 import { generateSEOMetadata, buildNextMetadata, SITE_CONFIG } from '@/lib/seo';
 import { PageLayout } from '@/components/page-layout';
 import BlogCardList from '@/components/blog-card-list';
+import AnimatedHeading from '@/components/animated-heading';
 
 interface BlogPageProps {
   params: Promise<{ locale: string }>;
